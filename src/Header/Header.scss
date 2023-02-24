@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    .btn{
+        width: 250px;
+        height: 30px;
+        background-color: #62d912;
+        color:white;
+        border-radius: 7px;
+        border:none;
+        font-size:30px;
+    }
+}
