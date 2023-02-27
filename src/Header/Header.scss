@@ -1,69 +1,81 @@
-.Header{
+.Header {
     width: 100%;
     height: 100vh;
-    .navbar{
+
+    .navbar {
         padding-right: 30px;
         padding-top: 12px;
         padding-bottom: 12px;
         padding-left: 28px;
         box-shadow: 0 0 3px black;
-        ul{
-            
+
+        ul {
+
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-        .item{
+
+        .item {
             text-decoration: none;
-            font-size:18px;
+            font-size: 18px;
         }
-       
-        a:hover{
-            color:rgb(32, 227, 32) !important;
+
+        a:hover {
+            color: rgb(32, 227, 32) !important;
         }
-        li{
+
+        li {
             list-style-type: none;
         }
-        ul li:last-child{
+
+        ul li:last-child {
             font-size: 30px;
             margin-left: 35%;
         }
-        li img{
+
+        li img {
             width: 22px;
             cursor: pointer;
         }
 
-        @media(max-width: 768px){
-            a{
-                display:none;
+        @media(max-width: 768px) {
+            a {
+                display: none;
             }
         }
-        
+
     }
-    .abaut{
+
+    .abaut {
         margin-top: 50px;
         padding: 50px;
-        .abaut__list{
+
+        .abaut__list {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
         }
-        .abaut__item{
+
+        .abaut__item {
             width: 50%;
             height: 300px;
         }
-        .abaut__title{
+
+        .abaut__title {
             margin-bottom: 20px;
             font-size: 40px;
         }
-        .abaut__desc{
+
+        .abaut__desc {
             width: 400px;
             font-size: 20px;
             color: #080707;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin-bottom: 30px;
         }
-        .abaut__btn{
+
+        .abaut__btn {
             width: 170px;
             height: 40px;
             background-color: rgb(32, 227, 32);
@@ -73,46 +85,59 @@
             color: white;
             cursor: pointer;
         }
-        .abaut__item2{
+
+        .abaut__item2 {
             width: 40%;
             height: 300px;
             box-shadow: 0 0 3px black;
         }
     }
-    .icon{
+
+    .icon {
         display: flex;
-        justify-content: end;
+        justify-content:flex-end;
         margin-top: 50px;
-        margin-right:75px;
-        li{
-            margin:12px;
-            img{
-                width: 22px;
+        margin-right: 75px;
+
+            li {
+                margin: 12px;
+                a{
+
+                img {
+                    width: 22px;
+                }
+                }   
             }
-        }
+        
     }
 }
-.NavbarLogo{
+
+.NavbarLogo {
     color: rgb(32, 227, 32) !important;
 }
-.NavbarShadow{
+
+.NavbarShadow {
     box-shadow: 0 0 5px rgb(32, 227, 32) !important;
 }
-.bgdark{
+
+.bgdark {
     background-color: #000 !important;
 }
-.bglight{
+
+.bglight {
     background-color: #fff;
 }
-.light{
-    color:white !important;
-}
-.dark{
-    color:#000000;
+
+.light {
+    color: white !important;
 }
 
-@media(max-width:767px){
-    .abaut__desc{
+.dark {
+    color: #000000;
+}
+
+@media(max-width:767px) {
+    .abaut__desc {
         width: 300px !important;
 
     }
